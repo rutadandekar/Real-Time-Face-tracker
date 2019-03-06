@@ -8,7 +8,7 @@ Watch the video to get an idea of real-time face tracker : https://www.youtube.c
 2. I have used servo controller chip pca9685.
 3. I have used OpenCv, Adafruit servo motor, GPIO libraries.
 
-### Getting Started
+## Getting Started
 To run it type python file_name.py
 
 You can refer OpenCv tutorials for additional information. 
