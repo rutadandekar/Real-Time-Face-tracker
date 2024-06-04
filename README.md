@@ -1,14 +1,19 @@
 # Real-Time-Face-tracker
-Hardware implementation of the real-time face tracker using Raspberry Pi. I have used servo motors on which picam is mounted nad motors move that picam along two axis. 
+I implemented a real-time face tracking system using a Raspberry Pi. The system employs servo motors to mount and maneuver the Pi camera across two axes. This setup enables the camera to dynamically track the face accurately. 
 
 Watch the video to get an idea of real-time face tracker : https://www.youtube.com/watch?v=PwmjaybLJMw
 
 ## Prerequisites
-1. I have implemented on raspberry Pi 3. 
-2. I have used servo controller chip pca9685.
-3. I have used OpenCv, Adafruit servo motor, GPIO libraries.
+#### Hardware
+1. Raspberry Pi 3
+2. Servo controller chip pca9685
+
+#### Software
+1. Python2.x
+2. OpenCv
+3. Adafruit servo motor library
 
 ## Getting Started
-To run it type python file_name.py
+To run it type python `file_name.py`
 
-You can refer OpenCv tutorials for additional information. 
+Note : You can refer OpenCv tutorials for additional information. 
